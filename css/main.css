@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  line-height: 1.5;
+  background-color: #bebebe;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header, h2, h3 {
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+header {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+strong {
+  font-style: italic;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  padding: 3rem;
+  justify-content: space-between;
+  margin: 0;
+  background-color: #bd027d;
+  list-style-type: none;
+}
