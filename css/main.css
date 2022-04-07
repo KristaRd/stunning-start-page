@@ -41,3 +41,28 @@ nav ul {
   background-color: #bd027d;
   list-style-type: none;
 }
+
+nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #eccee2;
+  border: 2px solid #960062;
+  border-radius: 6px;
+}
+
+nav li a:hover {
+  background-color: white;
+  color: black;
+}
+
+nav {
+  grid-row: 1 / -1;
+  grid-column: 1 / 3;
+}
+
+h1 {
+  grid-row: 3 / 4;
+  grid-column: 1 / 3;
+  margin: 0;
+  z-index: 1;
+}
